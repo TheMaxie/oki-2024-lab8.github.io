@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.member-photo {
+    margin-right: 2rem;
+}
+
+.member-photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.member-info h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0078d7;
+}
+
+.member-info p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.member-info strong {
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0078d7;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #005bb5;
+}
